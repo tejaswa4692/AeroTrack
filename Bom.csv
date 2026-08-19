@@ -1,0 +1,26 @@
+Item Name,Qty,Price (total) (USD),Item link,Notes
+3 ft wood dowels,1,$3.00,https://www.amazon.in/Global-Hanging-Macram%C3%A9-Tapestries-Projects/dp/B0H7MLPWMG?th=1,Wood dowles used to make the boom for yagi antenna (not using cf cuz conductive)
+M3 x 12 screw,6,$0.21,https://onlyscrews.in/products/hex-allen-socket-head-m3-x-12-screw-pack-of-20?variant=48590915567929,M3 x 12 for mounting the NEMA 17 to base plate
+M3 x 3mm threaded inserts,6,$0.28,https://onlyscrews.in/products/m3-x-3mm-brass-threaded-inserts?variant=49729062273337,For the rotating arm
+M3 x 8 threaded inserts,6,$0.19,https://onlyscrews.in/products/m3-x-8mm-brass-threaded-inserts?variant=49423134327097,For the base plate
+6000Z bearing,2,$0.38,https://onlyscrews.in/products/6000-zz-deep-groove-ball-bearing-10x26x8?variant=50974148362553,THis bearing will be for the arm (yaw)
+6005Z bearing,2,$0.90,https://onlyscrews.in/products/6005-zz-deep-groove-ball-bearing-25x47x12?variant=50975888376121,This bearing will be for the base plate (pitch)
+M3 x 6 screws,6,$0.11,https://onlyscrews.in/products/m3-x-6mm-hex-allen-socket-head-high-tensile12-9-black-oxide-screw-dia-3mm-length-6mm?variant=51700343406905,Mounting screws for NEMA 17
+ESP32-32D,1,$8.55,https://robu.in/product/smartelex-esp-wroom-32-wifi-bluetooth-networking-development-board-1-pcs/,ESP with enough pins to power the project
+TMC2209,2,$11.88,https://robu.in/product/tmc2209-stepper-motor-driver/,Stepper motor driver w high accuracy
+MT6835,2,$15.22,https://robu.in/product/mt6835-magnetic-encoder-module-pwm-spi-brushless-motor-21bit-encoder-with-magnet-to-replace-as5048-ab-16384/,Best quality stepper encoder to find shaft angle
+LM2596S,2,$0.92,https://robu.in/product/lm2596s-dc-dc-buck-converter-power-supply/,Buck convertor to power the ESP (might need to use smt else but this is js for the prototype)
+NEO-6M GPS,1,$3.00,https://robu.in/product/neo-6m-gps-module-with-eprom-normal-quality/,Cheap GPS works just fine to find the position of antenna
+NEMA17 4.2 kg,2,$14.62,https://robu.in/product/nema17-40mm-1-2a-unipolar-stepper-motor-w-1m-cable/,4.2Kg Nema17 has more than enoguh power to move the entire earth on its own
+Aluminum NEMA17 Shaft Coupling,1,$1.19,https://robu.in/product/easymech-aluminium-nema17-shaft-coupling-5mm-x-8mm/,This holds the wood dowel of the arm
+NEMA 17 Stepper Motor Bend Sturdy Mount,1,$2.11,https://robu.in/product/easymech-bracket-for-nema-17-stepper-motor/,If incase the arm mounting bracket is too flimsy for the nema 17 chonky boy i will use this instead
+XT60,1,$0.31,https://robu.in/product/xt60h-connector-with-housing-male/,To power the project im using a 3s lipo 
+Wire,1,$0.20,https://robu.in/product/high-quality-ultra-flexible-22awg-silicone-wire-1000m-black/,Wire to spread the electricity 
+F-F jumpers,3,$1.38,https://robu.in/product/male-to-female-jumper-wires-40pcs-20cm/,For the initial prototyping stage i will be soldering them manually later
+Tire spokes,20,$7.00,Local Shop,For the yagi director
+Single core copper wire,2,$0.35,https://robu.in/product/26awg-single-core-teflon-wire-red/,Driven element single cored copper wire enough for multiple types of antennas
+RP SMA 1m Male-Male Cable,1,$7.11,https://www.amazon.in/gp/product/B0GZLPBMM2?smid=AID930I70H9OP&th=1,1 m long RP SMA male - male coax to wire the yagi
+RP sma 5 cm female cable,1,$0.82,https://robu.in/product/5cm-ipex-1-to-rp-sma-female-connector-cable-11mm-rg1-13/,a small female rp sma connector so i dont ruin the coax cable when making the yagi 
+,,,,
+,,,,
+Total Price (USD):,$71.45,,,
