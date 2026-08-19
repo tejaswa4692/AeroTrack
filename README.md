@@ -19,6 +19,8 @@ It uses two stepper motors with encoders for pitch and yaw
 base.rotation.y = atan2(local_target.x, local_target.z)
 antenna.rotation.x = -atan2(local_target.y, Vector2(local_target.x, local_target.z).length()) + deg_to_rad(90)
 ```
+(lines taken straight out of my game code btw it does work irl too)
+
 These two formulas will be used to point the yagi towards the location i want it to point to, which will ofcourse be GPS coords in this case
 
 I have tested this in my game which i ALSO submitted for stardance and got a superstar on 
