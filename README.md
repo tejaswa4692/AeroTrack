@@ -4,6 +4,8 @@ Why should directional antennas be handicapped by the fact theyre directional, i
 It will do all the math to point the antennas towards a GPS coordinate, It does have its own GPS but if you dont want to use it its totally upto you its just there for quality of life and ease of use at the field.
 This project was developed to aid my Long range endurance UAV project that i also submitted for stardance and got funding from, This will help me make a groundstation that can have insane range without sacrificing directionality
 
+
+![Yagi Rig](./assets/Screenshot_20260816_194134.png)
 ___
 
 I will be implementing full support with the Mavlink protocol so you can either directly plug ur mavlink telemetry reciever in or route the data through a laptop
@@ -19,6 +21,8 @@ antenna.rotation.x = -atan2(local_target.y, Vector2(local_target.x, local_target
 These two formulas will be used to point the yagi towards the location i want it to point to, which will ofcourse be GPS coords in this case
 
 I have tested this in my game which i ALSO submitted for stardance and got a superstar on 
+
+![Yagi Tracker](./assets/Screenshot_20260819_000046.png)
 
 ### Electronics
 
