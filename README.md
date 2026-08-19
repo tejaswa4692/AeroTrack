@@ -4,6 +4,7 @@ Why should directional antennas be handicapped by the fact theyre directional, i
 It will do all the math to point the antennas towards a GPS coordinate, It does have its own GPS but if you dont want to use it its totally upto you its just there for quality of life and ease of use at the field.
 This project was developed to aid my Long range endurance UAV project that i also submitted for stardance and got funding from, This will help me make a groundstation that can have insane range without sacrificing directionality
 
+Where has my love for yagi antennas brought me 😍😍✌️✌️
 
 ![Yagi Rig](./assets/Screenshot_20260816_194134.png)
 ___
@@ -32,6 +33,16 @@ I have tested this in my game which i ALSO submitted for stardance and got a sup
 
 Yagi is a highly directional antenna which has insane range for anything thats directly infront of it, its used a LOT in TV communication and for groundstations where they know the position of the gs and they directly point it to that point
 Hugely used in aerospace 
+
+### 433 MHz Yagi
+
+| Element | Length (mm) | Distance from Reflector (mm) |
+|---|---|---|
+| Reflector | 346 | 0 |
+| Driven (dipole) | 329 | 138 |
+| Director 1 | 311 | 276 |
+| Director 2 | 308 | 486 |
+| Director 3 | 305 | 767 |
 
 ## Wiring
 
