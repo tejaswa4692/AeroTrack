@@ -54,6 +54,31 @@ Hugely used in aerospace
 
 ![Yagi Tracker](./assets/Group25.png)
 
+### Pin Connections
+
+| Signal | ESP32 Pin | Connects To |
+|---|---|---|
+| Yaw Step | GPIO 25 | Stepper Driver 1 (STEP) |
+| Yaw Dir | GPIO 26 | Stepper Driver 1 (DIR) |
+| Yaw Enable | GPIO 27 | Stepper Driver 1 (EN) |
+| Pitch Step | GPIO 14 | Stepper Driver 2 (STEP) |
+| Pitch Dir | GPIO 12 | Stepper Driver 2 (DIR) |
+| Pitch Enable | GPIO 13 | Stepper Driver 2 (EN) |
+| Yaw Encoder SCK | GPIO 18 | MT6835 #1 (SPI SCK) |
+| Yaw Encoder MISO | GPIO 19 | MT6835 #1 (SPI MISO) |
+| Yaw Encoder MOSI | GPIO 23 | MT6835 #1 (SPI MOSI) |
+| Yaw Encoder CS | GPIO 5 | MT6835 #1 (SPI CS) |
+| Pitch Encoder CS | GPIO 15 | MT6835 #2 (SPI CS, shares SCK/MISO/MOSI) |
+| GPS RX | GPIO 16 | GPS Module TX |
+| GPS TX | GPIO 17 | GPS Module RX |
+| MAVLink RX | GPIO 3 (RX0) | Telemetry Radio TX |
+| MAVLink TX | GPIO 1 (TX0) | Telemetry Radio RX |
+| Motor Power | VMOT | 12V Supply |
+| Logic Power | 3.3V | ESP32 / Encoders |
+
+Note: The encoder pins might be different for different encoders
+
+
 ## Design process
 ### The 433 Dipole 
 Coming soon... (i dont wanna provide any false instructions)
