@@ -38,6 +38,8 @@ Hugely used in aerospace
 
 ### 433 MHz Yagi
 
+### 433 MHz Yagi — Element Dimensions
+
 | Element | Length (mm) | Distance from Reflector (mm) |
 |---|---|---|
 | Reflector | 346 | 0 |
@@ -45,7 +47,30 @@ Hugely used in aerospace
 | Director 1 | 311 | 276 |
 | Director 2 | 308 | 486 |
 | Director 3 | 305 | 767 |
+| Director 4 | 303 | 1024 |
+| Director 5 | 301 | 1257 |
 
 ## Wiring
 
 ![Yagi Tracker](./assets/Group25.png)
+
+## Design process
+### The 433 Dipole 
+Coming soon... (i dont wanna provide any false instructions)
+### Firmware
+Coming soon...
+### Screws
+insert all the provided heatset inserts before moving on to assembling the rig, the longer inserts go in the baseplate and keep in mind to leave space at top so that the screws can sit flush
+the smaller 3mm inserts are tapped on the yaw arm
+### Assembling the rig
+1. Start by taking your boom and place the first reflector element at the end, cut the reflector to match the size given in the chart above (keep in mind it should be symmetric)
+2. Place the dipole you just created 13.8cm ahead of it
+3. Match the table for however many directors you want (the more the more directional it becoems)
+4. Put the YagiBoomMount.step under the CG of the yagi antenna
+5. Take out your 6000 bearings and slide them in the yaw arm
+6. position the yagi antenna boom mounts notch inside the bearing and side your nema 17 from the side screwing it in the place
+7. Slide down your 2.5cm stick under the yaw arm and superglue it in place
+8. Use a lathe or drill a hole to put a 5mm shaft inside the 2.5cm shaft so that it sticks out
+9. Screw your Nema17 under the baseplate before you begin the assembly
+10. Slide the 6005 bearings in the base plate then follow it by adding the yawarm in, use the aluminum coupling to screw both in place
+11. Rougly connect everything according to the wiring diagram to the ESP32 and mount the GPS as away from the yagi on baseplate facing up
