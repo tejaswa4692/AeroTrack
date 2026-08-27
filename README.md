@@ -6,7 +6,7 @@ This project was developed to aid my Long range endurance UAV project that i als
 
 Where has my love for yagi antennas brought me 😍😍✌️✌️
 
-![Yagi Rig](./assets/Screenshot_20260816_194134.png)
+![Yagi Rig](./assets/image2.png)
 ___
 
 I will be implementing full support with the Mavlink protocol so you can either directly plug ur mavlink telemetry reciever in or route the data through a laptop
@@ -25,7 +25,7 @@ These two formulas will be used to point the yagi towards the location i want it
 
 I have tested this in my game which i ALSO submitted for stardance and got a superstar on 
 
-![Yagi Tracker](./assets/Screenshot_20260819_000046.png)
+![Yagi Tracker](./assets/image1.png)
 
 ### Electronics
 
